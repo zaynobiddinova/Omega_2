@@ -447,10 +447,11 @@ ol {
 
 .sixth-box-small {
     width: 460px;
-    height: 250px;
+    height: 260px;
     background: #FFFFFF;
 border: 1px solid #EAE9F2;
 border-radius: 10px;
+padding-bottom: 50px;
 }
 
 .sixth-box-small-info {
@@ -459,7 +460,7 @@ line-height: 39px;
 letter-spacing: -0.656526px;
 color: #19191B;
 padding: 17px;
-margin-bottom: 20px;
+margin-bottom: 15px;
 }
 
 .sixth-box-small-link {
@@ -467,14 +468,27 @@ margin-bottom: 20px;
     align-items: center;
     padding: 17px;
     margin-bottom: 10px;
+    padding-bottom: 20px;
+    transition: 0.3s;
 }
 
 a {
     text-decoration: none;
+
+}
+
+.sixth-box-small-link:hover {
+    text-decoration: underline;
+    text-decoration-style: double;
+    color: #19191B;
 }
 
 .sixth-box-small-link-photo {
 margin-right: 15px;
+}
+
+.last {
+    margin: 60px 520px;
 }
 
 .sixth-box-small-link-info {
