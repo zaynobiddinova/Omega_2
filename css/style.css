@@ -504,3 +504,49 @@ line-height: 28px;
 letter-spacing: -0.656526px;
 color: #19191B;
 }
+
+.seventh {
+    background-color: #413e65;
+}
+
+.seventh .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.seventh-left {
+    position: relative;
+}
+
+.seventh-left-image-small {
+    position: absolute;
+    top: 21%;
+    left:57%;
+}
+
+.seventh-right {
+    padding-left: 150px;
+}
+
+
+.seventh-right-title {
+    font-size: 60px;
+line-height: 70px;
+letter-spacing: -1.87579px;
+color: #FFFFFF;
+}
+
+.seventh-right-info {
+    font-size: 21px;
+line-height: 39px;
+letter-spacing: -0.656526px;
+color: rgba(255, 255, 255, 0.7);
+margin: 30px 0;
+}
+
+.seventh-form-email {
+    background-color: #FFFFFF;
+border: 1px solid #EAE9F2;
+border-radius: 10px;
+}
