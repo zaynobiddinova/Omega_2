@@ -582,6 +582,13 @@ outline: hidden;
     border: 1px solid #F04037;
 }
 
+.seventh-button:hover {
+    color:#F04037;
+    font-weight: bold;
+    background-color: #fff;
+    border:1px solid #F04037;
+}
+
 .footer {
     padding: 80px 0;
 }
