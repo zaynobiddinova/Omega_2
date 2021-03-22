@@ -337,7 +337,7 @@ ol {
     border: 1px solid #EAE9F2;
     border-radius: 10px;
     padding: 8px;
-    margin: -5px 0;
+    margin: -5px 50px;
     transition: 0.3s;
 }
 
@@ -549,4 +549,35 @@ margin: 30px 0;
     background-color: #FFFFFF;
 border: 1px solid #EAE9F2;
 border-radius: 10px;
+width: 450px;
+height: 70px;
+font-size: 20px;
+text-align: center;
+border: 1px solid #fff;
+outline: hidden;
+}
+
+.seventh-form {
+    position: relative;
+}
+
+.form-photo {
+    width: 20px;
+    height: 16px;
+    position:absolute;
+    left: 20px;
+    top: 27px;
+}
+
+.seventh-button {
+    width: 450px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color:#F04037;
+    margin: 20px 0;
+    font-size: 21px;
+    border: 1px solid #F04037;
 }
